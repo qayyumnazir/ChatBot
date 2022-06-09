@@ -1,0 +1,265 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello my name is Akhram, how can I help you?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What hours are you open?", "What are your hours?", "When you are open?"],
+      "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+    {
+      "tag": "BodyChangeWhat1",
+      "patterns": ["What is Discharge?"],
+      "responses": [" A girl's vagina releases a liquid slippery substance called a discharge. If the discharge is a different color than usual or foul-smelling, it can be a sign of infection. A man's penis also emits fluids, such as semen when he ejaculates or discharge, which can be a sign of infection"]
+
+        },
+    {
+      "tag": "BodyChangeWhat2",
+      "patterns": ["Im a male what happens to my body?"],
+      "responses": ["Your voice gets lower or deeper. It may crack sometimes while it's changing, but that's totally normal and eventually goes away. Your Adam's apple (bump in your throat) might get bigger and more visible as this happens. Your penis and testicles get bigger.Hair may grow on your face, chest, and back. Your chest and shoulders get broader. You may have swelling around your nipples during puberty."]
+
+        },
+    {
+      "tag": "BodyChangeWhat3",
+      "patterns": ["Im a female what happens to my body?"],
+      "responses": ["Your breasts develop and get bigger. Your hips get wider and your body may become more curvy. You start getting your period. Your labia may change color and grow bigger. "]
+
+        },
+    {
+      "tag": "BodyChangeHow1",
+      "patterns": ["How do I know the change?"],
+      "responses": ["Can be aware of changes in the way you look or feel. If you notice anything unusual, such as an abnormal discharge, or if you have any pain, swelling, bumps, sores, or itching, see a medical provider right away because these problems can become more serious over time."]
+
+        },
+    {
+      "tag": "BodyChangeHow2",
+      "patterns": ["How long do we need to do a general check-up?"],
+      "responses": ["Once a year."]
+
+        },
+    {
+      "tag": "BirthControlWhat1",
+      "patterns": ["What is birth control?"],
+      "responses": ["Birth control is how you prevent pregnancy."]
+
+        },
+    {
+      "tag": "BirthControlWhat2",
+      "patterns": ["What happens if I don't get birth control?", "Why do we need birth control? "],
+      "responses": ["If you make a birth control mistake or have sex without using birth control at all, don't freak out — you still have a few days to try to prevent pregnancy. Emergency contraception is a kind of birth control that can help prevent pregnancy up to 5 days after unprotected sex. Emergency contraception means taking a morning-after pill or getting a copper IUD. You can get some kinds of morning-after pills (like Plan B) at the drugstore or at your local Planned Parenthood health center without a prescription. But it's important to take it as soon as possible after unprotected sex, or it won't work as well. Another kind of morning-after pill, called ella, is more effective than morning-after pills like Plan B — but you need a prescription from a nurse or doctor to get it. Getting a copper IUD within 5 days after unprotected sex is the most effective kind of emergency contraception. But a doctor needs to put the IUD in, and sometimes it can be hard to get an appointment on short notice. Call your doctor or your local Planned Parenthood health center as soon as possible after unprotected sex for help figuring out the best type of emergency contraception for you."]
+
+        },
+    {
+      "tag": "BirthControlWhat3",
+      "patterns": ["If my condom fails, what are my options?"],
+      "responses": ["If a condom you are using breaks, you should immediately stop having sex. Take the condom off and use a new condom. If you are not using another form of birth control, you can take Emergency Contraception to prevent pregnancy. EC can be used up to 5 days after unprotected sex, but it is more effective the sooner you use it. You should also get tested for HIV and other STIs."]
+
+        },
+    {
+      "tag": "BirthControlHow1",
+      "patterns": ["How do I get birth control?", "Are there any birth control methods?"],
+      "responses": ["Condoms, at drugstores or convenience stores. Anybody can buy condoms, and you don't need to show your ID. Sometimes you can get free condoms from community clinics, your school nurse, or Planned Parenthood health centers. Condoms help protect you from STDs, too! So it's good to use condoms even if you're on another method of birth control."]
+
+        },
+    {
+      "tag": "SexWhat1",
+      "patterns": ["What is sex?"],
+      "responses": ["People define 'sex' in different ways. Some people believe that it only counts as sex if a penis goes into a vagina, but this isn't true for everybody. Whatever sex means to you, being sexual with another person comes with a lot of responsibility. Before you have sex, think about what things you feel comfortable doing, ask what the other person feels comfortable doing, and think about any risks involved like STDs or pregnancy and how to help prevent them. It's just as important to think about what you DON'T feel comfortable doing and then talk about it with your partner. And if you're in the middle of doing something that you thought you wanted to do but change your mind, that's OK, too. You can stop any time you want. If you're going to have vaginal, oral, or anal sex, talk with your partner about how you'll help protect each other from STDs.If you're having vaginal sex, it's also important to use birth control if you don't want to get pregnant."]
+
+        },
+    {
+      "tag": "SexWhat2",
+      "patterns": ["Sometimes it burns after sex, what does this means?"],
+      "responses": ["There are several causes for burning after sex including an allergy or an STI. Speak with a medical provider if you have burning after sex."]
+
+        },
+     {
+       "tag": "SexHow",
+       "patterns": ["How do I know if I ready to sex?", "When can I have sex?"],
+       "responses": ["It can be really helpful to talk it out with someone you trust like a parent, a friend, or someone else who cares about you. Sex can be really great, but it also has risks STDs and unintended pregnancy are no joke.Think about: If having sex is something you really want to do, or something you're being pressured to do. Whether family and friends will support your decision (and how important that is to you).Your feelings about who you are and what you're comfortable doing. Whether you want to be in a committed relationship before you have sex (and if that's true for your partner too). What the pros and cons are - and especially thinking through any cons before deciding."]
+
+        },
+    {
+      "tag": "SexualTransmitiedInfectionsTestWhat",
+      "patterns": ["What should I do if I get STI?", "What should I do if I have an STI?"],
+      "responses": ["If you think you may be have an STI, make an appointment to see a doctor as soon as possible.You can refer to the list of teen-friendly sexual health services above to schedule your appointment."]
+
+        },
+    {
+      "tag": "SexualTransmitiedInfectionsTestHow1",
+      "patterns": ["How do people get STI?", "How are STIs spread?"],
+      "responses": ["Sexually transmitted infections (STIs) are most often spread through unprotected oral, vaginal or anal sex. Some STIs don't have symptoms, so you won't necessarily know if someone has an STI before you have sex with them. The best way to avoid getting infected with an STI is to practice abstinence or use a barrier method (condoms, diaphragms and dental dams) when engaging in any kind of sexual act."]
+
+        },
+    {
+      "tag": "SexualTransmitiedInfectionsTestHow2",
+      "patterns": ["How do we avoid STI?", "What are the ways to avoid an STI?"],
+      "responses": ["The only 100% effective method of preventing sexually transmitted infections is abstinence. If you are sexually active, there are a number of ways that you can avoid STIs. The best way to prevent STIs is to use a barrier method such as a condom, diaphragm or dental dam."]
+
+        },
+    {
+      "tag": "SexualTransmitiedInfectionsTestHow3",
+      "patterns": ["How can I tell if I have a sexually transmitted infection?", "How can I know if I have an STI or not?"],
+      "responses": ["Some common symptoms of STIs include  sores on the genitals, discharge from the penis or vagina, itching, and burning during urination. If you have these or other unusual symptoms or if you have had unprotected sex, it’s important to be tested regularly and as soon as possible after you notice symptoms. But remember: many people with STIs have NO SYMPTOMS. People can get and spread infections without ever having symptoms."]
+
+        },
+    {
+      "tag": "SexualTransmitiedInfectionsTestHow4",
+      "patterns": ["How long will it take to cure my STI?", "Does an STI take a long time to cure?"],
+      "responses": ["That depends on the STI. Some STIs are curable, which means you take medication and the infection goes away. Some STIs are incurable, which means that you can take medications to help with the symptoms but you will always have the infection, and can always pass it on to someone else, even if you show no symptoms."]
+
+        },
+
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+
+    {
+            "tag": "greetingmalay",
+            "patterns": ["Hi!","Hai","Apa khabar?", "Ada sesiapa di sana?", "Helo", "Selamat sejahtera"],
+            "responses": ["Helo, terima kasih kerana singgah di sini", "Gembira kerana bertemu dengan anda", "Hi di sana, apa yang saya boleh bantu"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbyemalay",
+            "patterns": ["Selamat tinggal", "Jumpa anda lagi"],
+            "responses": ["Jumpa anda lagi, terima kasih kerana melawat", "Moga anda menjalani hari yang baik", "Selamat tinggal, jemput datang lagi nanti"]
+        },
+        {
+            "tag": "thanksmalay",
+            "patterns": ["Terima kasih", "Itu sangat berguna"],
+            "responses": ["Gembira mendengarnya!", "Bila-bila masa!", "Dengan senang hati!"]
+        },
+        {
+            "tag": "hoursmalay",
+            "patterns": ["Pukul berapa anda buka?", "Jam berapa klinik ini buka"],
+            "responses": ["Kami buka dari jam 9am-9pm", "Waktu kami operasi adalah dari 9am-9pm setiap hari"]
+        },
+        {
+            "tag": "BodyChangeWhatmalay1",
+            "patterns": ["Apa itu pelepasan bagi perempuan?","Apa itu discharge?","Apa itu pelepasan?"],
+            "responses": [" Faraj gadis mengeluarkan bahan licin cecair yang dipanggil pelepasan. Jika lelehan berwarna berbeza daripada biasa atau berbau busuk, ia boleh menjadi tanda jangkitan. Zakar lelaki juga mengeluarkan cecair, seperti air mani apabila dia ejakulasi datang atau keluar, yang boleh menjadi tanda jangkitan."]
+
+        },
+        {
+            "tag": "BodyChangeWhatmalay2",
+            "patterns": ["Apa jadi pada badan saya sebagai seorang lelaki?","Apa perubahan yang ada pada badan saya sebagai seorang lelaki?"],
+            "responses": ["Suara anda menjadi lebih rendah atau lebih dalam. Ia mungkin retak kadang-kadang semasa ia berubah, tetapi itu benar-benar normal dan akhirnya hilang. Epal Adam anda (benjolan di kerongkong anda) mungkin menjadi lebih besar dan lebih kelihatan apabila ini berlaku. Zakar dan buah zakar anda menjadi lebih besar. Rambut mungkin tumbuh di muka, dada dan belakang anda. Dada dan bahu anda menjadi lebih luas. Anda mungkin mengalami bengkak di sekitar puting semasa akil baligh."]
+
+        },
+        {
+            "tag": "BodyChangeWhatmalay3",
+            "patterns": ["Apa jadi pada badan saya sebagai seorang perempuan?","Apa perubahan yang ada pada badan saya sebagai seorang perempuan?"],
+            "responses": ["Payudara anda berkembang dan menjadi lebih besar. Pinggul anda semakin lebar dan badan anda mungkin menjadi lebih melengkung. Anda mula mendapat haid. Labia anda mungkin berubah warna dan membesar. "]
+
+        },
+        {
+            "tag": "BodyChangeHowmalay1",
+            "patterns": ["Bagaimana saya akan tahu perubahan itu?","Bagaimana kita boleh tahu perubahan pada badan kita?","Bagaimana untuk tahu perubahan badan?"],
+            "responses": ["Anda boleh menyedari perubahan dalam cara anda melihat atau merasa. Jika anda melihat apa-apa yang luar biasa, seperti pelepasan yang tidak normal, atau jika anda mengalami sebarang kesakitan, bengkak, benjolan, luka atau gatal-gatal, segera berjumpa dengan pembekal perubatan kerana masalah ini boleh menjadi lebih serius dari semasa ke semasa."]
+
+        },
+        {
+            "tag": "BodyChangeHowmalay2",
+            "patterns": ["Berapa lama kita perlu melakukan pemeriksaan am ?","Berapa kerap saya perlu melakukan pemeriksaan am"],
+            "responses": ["Setahun sekali."]
+
+        },
+        {
+            "tag": "BirthControlWhatmalay1",
+            "patterns": ["Apakah kawalan kelahiran?","Apa itu kawalan kelahiran?"],
+            "responses": ["Kawalan kelahiran ialah cara anda mencegah kehamilan."]
+
+        },
+        {
+            "tag": "BirthControlWhatmalay2",
+            "patterns": ["Apa yang berlaku jika saya tidak mengamalkan kawalan kelahiran?", "Kenapa perlu saya mengamalkan kawalan kelahiran?"],
+            "responses": ["Jika anda membuat kesilapan kawalan kelahiran atau melakukan hubungan seks tanpa menggunakan kawalan kelahiran sama sekali, jangan risau - anda masih mempunyai beberapa hari untuk cuba menghalang kehamilan. Kontraseptif kecemasan adalah sejenis kawalan kelahiran yang boleh membantu mencegah kehamilan sehingga 5 hari selepas hubungan seks tanpa perlindungan. Kontraseptif kecemasan bermaksud mengambil (pil selepas pagi) atau mendapatkan IUD tembaga. Anda boleh mendapatkan beberapa jenis pil selepas pagi (seperti Pelan B) di kedai ubat atau di pusat kesihatan Planned Parenthood tempatan anda tanpa preskripsi. Tetapi penting untuk mengambilnya secepat mungkin selepas hubungan seks tanpa perlindungan, atau ia tidak akan berkesan juga. Satu lagi jenis pil pagi, dipanggil ella, adalah lebih berkesan daripada pil selepas pagi seperti Pelan B — tetapi anda memerlukan preskripsi daripada jururawat atau doktor untuk mendapatkannya. Mendapatkan IUD tembaga dalam masa 5 hari selepas hubungan seks tanpa perlindungan adalah jenis kontraseptif kecemasan yang paling berkesan. Tetapi doktor perlu memasukkan IUD, dan kadangkala sukar untuk mendapatkan temu janji dalam masa yang singkat. Hubungi doktor anda atau pusat kesihatan Planned Parenthood tempatan anda secepat mungkin selepas hubungan seks tanpa perlindungan untuk mendapatkan bantuan memikirkan jenis kontraseptif kecemasan yang terbaik untuk anda."]
+
+        }, {
+            "tag": "BirthControlWhatmalay3",
+            "patterns": ["Jika kondom saya koyak, apakah pilihan saya?","Apa akan berlaku jika kondom saya koyak?"],
+            "responses": ["Jika kondom yang anda gunakan koyak, anda harus segera berhenti melakukan hubungan seks. Tanggalkan kondom dan gunakan kondom baharu. Jika anda tidak menggunakan kaedah kawalan kelahiran yang lain, anda boleh mengambil Perancang Kecemasan (EC) untuk mencegah kehamilan. EC boleh digunakan sehingga 5 hari selepas hubungan seks tanpa perlindungan, tetapi ia lebih berkesan jika lebih cepat anda menggunakannya. Anda juga harus menjalani ujian untuk HIV dan STI lain."]
+
+        }, {
+            "tag": "BirthControlHowmalay4",
+            "patterns": ["Bagaimana saya mendapatkan kawalan kelahiran?", "Adakah terdapat kaedah kawalan kelahiran?"],
+            "responses": ["Kondom, di kedai ubat atau kedai serbaneka. Sesiapa sahaja boleh membeli kondom, dan anda tidak perlu menunjukkan ID anda. Kadangkala anda boleh mendapatkan kondom percuma daripada klinik komuniti, jururawat sekolah anda atau pusat kesihatan Planned Parenthood. Kondom membantu melindungi anda daripada STD juga! Jadi adalah baik untuk menggunakan kondom walaupun anda menggunakan kaedah kawalan kelahiran yang lain."]
+
+        }, {
+            "tag": "SexWhatmalay1",
+            "patterns": ["Apa itu seks?","Berikan definisi seks","Boleh jelaskan maksud seks?"],
+            "responses": ["Orang mentakrifkan 'seks' dengan cara yang berbeza. Sesetengah orang percaya bahawa ia hanya dikira sebagai seks jika zakar masuk ke dalam faraj, tetapi ini tidak benar untuk semua orang. Walau apa pun makna seks bagi anda, hubungan seksual dengan orang lain datang dengan banyak tanggungjawab. Sebelum anda melakukan hubungan seks, fikirkan perkara yang anda rasa selesa lakukan, tanyakan perkara yang orang lain rasa selesa lakukan dan fikirkan tentang sebarang risiko yang terlibat — seperti STD atau kehamilan — dan cara membantu mencegahnya. Penting juga untuk memikirkan perkara yang anda TIDAK selesa lakukan — dan kemudian bercakap mengenainya dengan pasangan anda. Dan jika anda sedang melakukan sesuatu yang anda fikir anda mahu lakukan tetapi berubah fikiran, itu juga OK. Anda boleh berhenti bila-bila masa anda mahu. Jika anda akan melakukan hubungan seks faraj, lisan atau dubur, bincang dengan pasangan anda tentang cara anda membantu melindungi satu sama lain daripada STD. Jika anda melakukan hubungan seks faraj, amat penting untuk menggunakan kawalan kelahiran jika anda tidak mahu hamil."]
+
+        }, {
+            "tag": "SexWhatmalay2",
+            "patterns": ["Kadang-kadang ia sakit selepas seks, apakah maksmud itu?","Kenapa saya rasa sakit lepas seks?","Apa perlu saya buat jika rasa sakit lepas seks?"],
+            "responses": ["Terdapat beberapa sebab sakit selepas hubungan seks termasuk alahan atau STI. Cakap dengan pembekal perubatan jika anda mengalami rasa sakit selepas hubungan seks."]
+
+        }, {
+            "tag": "SexHowmalay",
+            "patterns": ["Bagaimana saya tahu jika saya bersedia untuk melakukan hubungan seks?","Bila saya boleh melakukan hubungan seks?"],
+            "responses": ["Bercakap dengan seseorang yang anda percayai sangat membantu — seperti ibu bapa, rakan atau orang lain yang mengambil berat tentang anda. Seks boleh menjadi sangat enak, tetapi ia juga mempunyai risiko — STD dan kehamilan yang tidak diingini bukanlah gurauan semata-mata. Oleh itu, anda perlu sentiasa fikir tentang: Jika melakukan hubungan seks adalah sesuatu yang anda benar-benar mahu lakukan, atau sesuatu yang anda sedang ditekan untuk melakukannya. Sama ada keluarga dan rakan akan menyokong keputusan anda. Tanya perasaan anda tentang siapa anda dan perkara yang anda selesa lakukan tidak kisah sama ada anda ingin berada dalam hubungan yang komited sebelum anda melakukan hubungan seks. Apakah kebaikan dan keburukan - dan terutamanya memikirkan sebarang keburukan sebelum membuat keputusan"]
+
+        }, {
+            "tag": "SexualTransmitiedInfectionsTestWhatmalay1",
+            "patterns": ["Apakah yang perlu saya lakukan sekiranya saya mendapat STI?","Apa saya perlu buat jika saya mempunyai STI?"],
+            "responses": ["Jika anda fikir anda mungkin menghidap STI, buat temujanji untuk berjumpa doktor secepat mungkin. Anda boleh merujuk senarai perkhidmatan kesihatan seksual mesra remaja di atas untuk menjadualkan temujanji anda."]
+
+        },
+        {
+            "tag": "SexualTransmitiedInfectionsTestHowmalay2",
+            "patterns": ["Bagaimana orang mendapat STI?","Bagaimana STI disebarkan?"],
+            "responses": ["Jangkitan menular seksual (STI) paling kerap disebarkan melalui seks oral, faraj atau dubur tanpa perlindungan. Sesetengah STI tidak mempunyai simptom, jadi anda tidak semestinya mengetahui sama ada seseorang menghidap STI sebelum anda melakukan hubungan seks dengan mereka. Cara terbaik untuk mengelak daripada dijangkiti STI adalah dengan mengamalkan pantang atau menggunakan kaedah penghalang (kondom, diafragma dan empangan pergigian) apabila melakukan sebarang jenis perbuatan seksual."]
+
+        },
+    {
+            "tag": "Acceptance",
+            "patterns": ["Okay","Noted","I see","Understood"],
+            "responses": ["Glad to help!","Happy to help!","Hope thats answer your question!"]
+
+        },
+    {
+            "tag": "AcceptanceMalay",
+            "patterns": ["OK","Faham","Baiklah"],
+            "responses": ["Harap membantu!","Okay! ada soalan lain?","Baiklah!"]
+
+        }
+  ]
+}
